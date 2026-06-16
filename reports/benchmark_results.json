@@ -1,0 +1,1382 @@
+[
+  {
+    "test_case": "Ai là cơ quan chủ trì trong việc phòng, chống ma túy và tội phạm liên quan đến Bộ đội Biên phòng?",
+    "agent_response": "Cơ quan chủ trì trong việc phòng, chống ma túy và tội phạm liên quan đến Bộ đội Biên phòng là cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Bộ đội Biên phòng. Cơ quan này có nhiệm vụ chủ trì, phối hợp với cơ quan công an và các tổ chức khác có liên quan để thực hiện các hoạt động phòng ngừa, ngăn chặn và đấu tranh chống tội phạm về ma túy tại khu vực hoặc địa bàn quản lý của mình [Luật Phòng chống ma túy 2021, Điều 5].",
+    "latency": 9.16466400003992,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 3.0,
+        "llama-3.3-70b": 4.0
+      },
+      "reasoning": "GPT: 3.0/5, Llama: 4.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Các đơn vị nào tham gia vào công tác phòng, chống ma túy và tội phạm theo văn bản?",
+    "agent_response": "Theo văn bản Luật Phòng chống ma túy 2021, có một số đơn vị tham gia vào công tác phòng, chống ma túy và tội phạm như sau:\n\n1. **Bộ Công an**: Đây là cơ quan chủ trì trong việc ban hành văn bản quy phạm pháp luật về phòng, chống ma túy, tổ chức tiếp nhận và xử lý thông tin tội phạm về ma túy, cũng như kiểm soát các hoạt động hợp pháp liên quan đến ma túy [Luật Phòng chống ma túy 2021, Điều 2].\n\n2. **Cán bộ, chiến sĩ thuộc cơ quan chuyên trách phòng, chống tội phạm về ma túy**: Những người này có nhiệm vụ thực hiện các hoạt động phòng, chống ma túy và được hưởng chế độ, chính sách ưu đãi phù hợp với tính chất nhiệm vụ của họ [Luật Phòng chống ma túy 2021, Điều 4].\n\n3. **Các cơ quan, tổ chức có liên quan**: Bộ Công an sẽ phối hợp với các cơ quan, tổ chức khác trong công tác phòng, chống ma túy [Luật Phòng chống ma túy 2021, Điều 2].\n\n4. **Cơ quan nhà nước**: Các cơ quan nhà nước cũng có trách nhiệm trong việc tổ chức phòng, chống ma túy trong cơ quan, đơn vị của mình [Luật Phòng chống ma túy 2021, Điều 7].\n\nTóm lại, các đơn vị tham gia vào công tác phòng, chống ma túy bao gồm Bộ Công an, cán bộ, chiến sĩ chuyên trách, các cơ quan, tổ chức liên quan và các cơ quan nhà nước.",
+    "latency": 8.854881499893963,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3.0,
+        "llama-3.3-70b": 3.0
+      },
+      "reasoning": "GPT: 3.0/5, Llama: 3.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Bộ đội Biên phòng có trách nhiệm gì liên quan đến ma túy và tội phạm theo văn bản?",
+    "agent_response": "Bộ đội Biên phòng có một số trách nhiệm quan trọng liên quan đến ma túy và tội phạm theo các quy định trong văn bản pháp luật về phòng, chống ma túy. Cụ thể, trách nhiệm của Bộ đội Biên phòng bao gồm:\n\n1. **Thực hiện các hoạt động phòng ngừa, ngăn chặn và đấu tranh chống tội phạm về ma túy**: Bộ đội Biên phòng có cơ quan chuyên trách phòng, chống tội phạm về ma túy, trong phạm vi nhiệm vụ và quyền hạn của mình, sẽ chủ trì và phối hợp với các cơ quan, tổ chức có liên quan để thực hiện các hoạt động này tại khu vực hoặc địa bàn quản lý, kiểm soát [Luật Phòng chống ma túy 2021, Điều 4].\n\n2. **Đào tạo và bồi dưỡng**: Bộ đội Biên phòng cũng có trách nhiệm đào tạo, bồi dưỡng cho những người làm công tác chuyên trách phòng, chống tội phạm về ma túy [Luật Phòng chống ma túy 2021, Điều 5].\n\n3. **Thống kê người nghiện ma túy**: Bộ đội Biên phòng có nhiệm vụ thống kê số lượng người nghiện ma túy trong các trại giam, trại tạm giam, và nhà tạm giữ mà Bộ Quốc phòng quản lý [Luật Phòng chống ma túy 2021, Điều 5].\n\nNgoài ra, Bộ đội Biên phòng cũng tham gia vào việc phối hợp với các cơ quan công an và các tổ chức khác để thực hiện các hoạt động liên quan đến phòng, chống tội phạm về ma túy [Luật Phòng chống ma túy 2021, Điều 4].",
+    "latency": 9.283477833960205,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Ca sĩ Miu Lê bao nhiêu tuổi?",
+    "agent_response": "Ca sĩ Miu Lê, tên thật là Lê Ánh Nhật, hiện 35 tuổi [Document 4].",
+    "latency": 5.445827292045578,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Có bao nhiêu người trong nhóm bị bắt quả tang sử dụng ma túy?",
+    "agent_response": "Theo thông tin từ các tài liệu, có tổng cộng 6 người trong nhóm bị bắt quả tang sử dụng ma túy tại bãi biển ở Cát Bà. Nhóm này bao gồm ca sĩ Miu Lê và một số người khác, cụ thể là Lê Ánh Nhật (Miu Lê), Vũ Khương An, Trần Minh Trang, Vũ Tài Nam, Trần Đức Phong và Đoàn Thị Thúy An [Document 2 | Source: article_01.md].",
+    "latency": 6.329132416052744,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Trần Minh Trang có quốc tịch Canada không?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.706504999892786,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 3.0/5, Llama: 5.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Ai là cơ quan đầu mối trao đổi thông tin về kiểm soát các hoạt động hợp pháp liên quan đến ma túy?",
+    "agent_response": "Cơ quan đầu mối trao đổi thông tin về kiểm soát các hoạt động hợp pháp liên quan đến ma túy là Bộ Công an. Bộ Công an có trách nhiệm chủ trì, phối hợp với các cơ quan, tổ chức có liên quan trong việc tiếp nhận và xử lý thông tin tội phạm về ma túy, cũng như kiểm soát các hoạt động hợp pháp liên quan đến ma túy theo thẩm quyền của mình [Luật Phòng chống ma túy 2021, Điều 3].",
+    "latency": 7.804192000068724,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Các bộ nào phối hợp trong việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy?",
+    "agent_response": "Theo quy định tại Luật Phòng chống ma túy 2021, Bộ Công an có trách nhiệm chủ trì, phối hợp với các cơ quan, tổ chức có liên quan trong việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy. Cụ thể, Bộ Công an sẽ tổ chức tiếp nhận và xử lý thông tin tội phạm về ma túy, cũng như kiểm soát các hoạt động hợp pháp liên quan đến ma túy theo thẩm quyền của mình [Luật Phòng chống ma túy 2021, Điều 1]. \n\nNgoài Bộ Công an, các lực lượng như Bộ đội Biên phòng và Cảnh sát biển Việt Nam cũng tham gia vào việc tiếp nhận, xử lý thông tin tội phạm về ma túy và ngăn chặn các hành vi vi phạm pháp luật liên quan đến ma túy [Luật Phòng chống ma túy 2021, Điều 4]. \n\nTóm lại, các bộ và lực lượng phối hợp trong việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy bao gồm Bộ Công an, Bộ đội Biên phòng và Cảnh sát biển Việt Nam.",
+    "latency": 10.902568582911044,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 2.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 3.0,
+        "llama-3.3-70b": 2.0
+      },
+      "reasoning": "GPT: 3.0/5, Llama: 2.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Bộ Tài chính là cơ quan đầu mối điều phối tất cả các hoạt động liên quan đến ma túy.",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.814669499872252,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 5.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Ai là người phụ trách tại Trung tâm Giám định ma túy theo văn bản?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.807763333898038,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Theo quy định, các đơn vị phải lập dự trù và gửi đăng ký số lượng mẫu chất ma túy trước ngày nào?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.847578834043816,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Văn bản có đề cập đến việc lấy mẫu chất ma túy cho mục đích thương mại không?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 8.477362249977887,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 2.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 3.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 3.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Ai là cơ quan chịu trách nhiệm tổ chức thực hiện trình tự, thủ tục giam định chất ma túy?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.982627874938771,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Văn bản có đề cập đến việc kiểm tra, giám sát của cơ quan nào không?",
+    "agent_response": "Có, văn bản đề cập đến việc kiểm tra, giám sát của cơ quan nhà nước có thẩm quyền. Cụ thể, các cơ quan, tổ chức, cá nhân đã được cơ quan nhà nước có thẩm quyền cho phép sẽ phải chịu sự theo dõi, kiểm tra, giám sát trong quá trình vận chuyển chất ma túy, tiền chất và các hoạt động hợp pháp liên quan đến ma túy [Luật Phòng chống ma túy 2021, Điều 14].",
+    "latency": 6.667761666933075,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Theo văn bản, Viện Khoa học hình sự có trách nhiệm giám định sản phẩm từ cây cần sa không?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.884109249804169,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 4.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 4.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Ai là cơ quan được phép cho phép sản xuất tiền chất tại danh mục tiền chất?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 5.281599709065631,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Bộ nào có trách nhiệm tham định và quyết định việc cho phép nghiên cứu, sản xuất, vận chuyển chất ma túy?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 5.747508167056367,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Bộ Công Thương cho phép sản xuất các chất ma túy mà không cần sự cho phép của cơ quan khác?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có. Theo quy định tại Điều 12 của Luật Phòng chống ma túy 2021, các hoạt động hợp pháp liên quan đến ma túy phải được cơ quan quản lý nhà nước có thẩm quyền cho phép, bao gồm cả việc sản xuất chất ma túy [Luật Phòng chống ma túy 2021, Điều 12]. Do đó, Bộ Công Thương không thể tự ý cho phép sản xuất các chất ma túy mà không có sự cho phép của cơ quan có thẩm quyền khác.",
+    "latency": 7.328836207976565,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nguyên tắc thực hiện công tác phối hợp trong phòng, chống tội phạm về ma túy được quy định bởi văn bản nào?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 7.469317707931623,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Công tác phối hợp trong phòng, chống tội phạm ma túy có cần phải tuân thủ các quy định pháp luật không?",
+    "agent_response": "Công tác phối hợp trong phòng, chống tội phạm ma túy chắc chắn cần phải tuân thủ các quy định pháp luật. Theo Luật Phòng, chống ma túy 2021, các cơ quan, tổ chức có trách nhiệm phối hợp với nhau trong việc phòng, chống ma túy phải thực hiện theo các quy định cụ thể của pháp luật. Cụ thể, Bộ Công an có trách nhiệm chủ trì, phối hợp với các cơ quan, tổ chức liên quan trong công tác này, bao gồm việc tổ chức tiếp nhận và xử lý thông tin tội phạm về ma túy, cũng như kiểm soát các hoạt động hợp pháp liên quan đến ma túy theo thẩm quyền [Luật Phòng chống ma túy 2021, Điều 3].\n\nNgoài ra, Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên cũng có trách nhiệm tổ chức và phối hợp với cơ quan có thẩm quyền để tuyên truyền, phổ biến kiến thức pháp luật về phòng, chống ma túy trong nhân dân, cũng như vận động nhân dân tham gia vào công tác này [Luật Phòng chống ma túy 2021, Điều 10]. Điều này cho thấy rằng việc phối hợp không chỉ là một hoạt động tự phát mà còn phải tuân thủ theo các quy định pháp luật hiện hành. \n\nTóm lại, công tác phối hợp trong phòng, chống tội phạm ma túy không chỉ cần thiết mà còn phải được thực hiện theo các quy định pháp luật để đảm bảo hiệu quả và tính hợp pháp của các hoạt động này.",
+    "latency": 10.469860292039812,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Công tác phối hợp của các cơ quan có liên quan đến ma túy không cần tuân thủ quy định nào?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.188059125095606,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 2.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 3.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 3.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Trong thời hạn bao lâu kể từ ngày người cai nghiện ma túy phải thông báo cho Ủy ban nhân dân cấp xã?",
+    "agent_response": "Trong thời hạn 05 ngày làm việc kể từ ngày người cai nghiện ma túy sử dụng dịch vụ hoặc tự ý chấm dứt việc sử dụng dịch vụ hoặc hoàn thành dịch vụ, người cai nghiện ma túy phải thông báo cho Ủy ban nhân dân cấp xã nơi người đó đăng ký cai nghiện ma túy tự nguyện tại gia đình, cộng đồng [Luật Phòng chống ma tuý 2021, Điều 3].",
+    "latency": 90.98153745895252,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Ai là người có thẩm quyền để tổ chức cá nhân đăng ký cung cấp dịch vụ cai nghiện ma túy tự nguyện?",
+    "agent_response": "Người có thẩm quyền để tổ chức cá nhân đăng ký cung cấp dịch vụ cai nghiện ma túy tự nguyện là Chủ tịch Ủy ban nhân dân cấp xã nơi người đó đăng ký cai nghiện ma túy tự nguyện tại gia đình, cộng đồng. Theo quy định, tổ chức, cá nhân có đủ điều kiện thì được đăng ký cung cấp dịch vụ cai nghiện ma túy tự nguyện với Chủ tịch Ủy ban nhân dân cấp xã [Luật Phòng chống ma túy 2021, Điều 36].",
+    "latency": 4.890005083056167,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Người cai nghiện ma túy phải thông báo cho Ủy ban nhân dân cấp xã sau khi họ hoàn thành dịch vụ trong vòng 10 ngày.",
+    "agent_response": "Thông tin bạn đưa ra không chính xác. Theo quy định, người cai nghiện ma túy phải thông báo cho Ủy ban nhân dân cấp xã trong thời hạn 05 ngày làm việc kể từ ngày họ tự ý chấm dứt việc sử dụng dịch vụ hoặc hoàn thành quy trình cai nghiện ma túy [Luật Phòng chống ma túy 2021, Điều 37].",
+    "latency": 7.377333707874641,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Chuyên án VN10 liên quan đến hành vi gì của các tiếp viên hàng không?",
+    "agent_response": "Chuyên án VN10 liên quan đến hành vi vận chuyển trái phép chất ma túy của các tiếp viên hàng không từ Pháp về Việt Nam. Cụ thể, các tiếp viên này đã tham gia vào một đường dây tội phạm lớn, trong đó Công an TP HCM đã khởi tố tổng cộng 2.005 bị can và thu giữ gần 600 kg ma túy, cùng với nhiều vũ khí khác [VnExpress, 2024]. \n\nĐường dây này đã được phát hiện và triệt phá thông qua việc theo dõi \"dòng chảy ma túy\" và khui vỏ bọc của các \"ông trùm\" trong hoạt động mua bán, vận chuyển trái phép chất ma túy [VnExpress, 2024].",
+    "latency": 6.674559916136786,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Có bao nhiêu tiếp viên hàng không bị liên quan trong chuyên án VN10?",
+    "agent_response": "Trong chuyên án VN10, có 4 tiếp viên hàng không bị liên quan [VnExpress, 2024].",
+    "latency": 99.5182688748464,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Chuyên án VN10 đề cập đến việc tiếp viên hàng không xách vũ khí trái phép về nước không?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có. Chuyên án VN10 chủ yếu đề cập đến việc 4 tiếp viên hàng không xách ma túy về nước, nhưng không có thông tin cụ thể nào về việc xách vũ khí trái phép [VnExpress, 2024].",
+    "latency": 7.479199249995872,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 5.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Bộ Công an có trách nhiệm gì trong việc ban hành văn bản quy phạm pháp luật về phòng, chống ma túy?",
+    "agent_response": "Bộ Công an có trách nhiệm trong việc ban hành văn bản quy phạm pháp luật về phòng, chống ma túy theo thẩm quyền của mình hoặc trình cơ quan nhà nước có thẩm quyền ban hành các văn bản này. Cụ thể, Bộ Công an phải chủ trì và phối hợp với các cơ quan, tổ chức có liên quan trong công tác phòng, chống ma túy, tổ chức tiếp nhận và xử lý thông tin về tội phạm ma túy, cũng như kiểm soát các hoạt động hợp pháp liên quan đến ma túy theo thẩm quyền [Luật Phòng chống ma túy 2021, Điều 3]. \n\nNgoài ra, Bộ Công an cũng có trách nhiệm tổ chức công tác giám định chất ma túy và tiền chất, cũng như đào tạo, bồi dưỡng cho người làm công tác điều tra, đấu tranh phòng, chống tội phạm về ma túy [Luật Phòng chống ma túy 2021, Điều 3].",
+    "latency": 9.345533624989912,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Bộ Công an có trách nhiệm tổ chức giám định chất ma túy không?",
+    "agent_response": "Có, Bộ Công an có trách nhiệm tổ chức công tác giám định chất ma túy và tiền chất. Điều này được quy định rõ trong văn bản pháp luật về phòng, chống ma túy [Luật Phòng chống ma túy 2021, Điều 3].",
+    "latency": 7.6311980409082025,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Bộ Công an không có trách nhiệm hợp tác với các tổ chức quốc tế trong phòng, chống ma túy.",
+    "agent_response": "Thông tin trong tài liệu không đề cập đến việc Bộ Công an không có trách nhiệm hợp tác với các tổ chức quốc tế trong phòng, chống ma túy. Ngược lại, tài liệu chỉ rõ rằng Bộ Công an có trách nhiệm trong việc tổ chức, phối hợp với các cơ quan, tổ chức có liên quan trong phòng, chống ma túy, bao gồm cả việc thực hiện hợp tác quốc tế về vấn đề này [Luật Phòng chống ma túy 2021, Điều 10]. \n\nDo đó, tuyên bố rằng Bộ Công an không có trách nhiệm hợp tác với các tổ chức quốc tế trong phòng, chống ma túy là không chính xác.",
+    "latency": 9.338670041877776,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Lá cây côca có khối lượng tối thiểu bao nhiêu để được coi là chất ma túy theo quy định của Chính phủ?",
+    "agent_response": "Lá cây côca được coi là chất ma túy theo quy định của Chính phủ khi có khối lượng tối thiểu từ 01 kilôgam đến dưới 10 kilôgam [Document 1].",
+    "latency": 6.676864958135411,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Quả thuốc phiện tươi có khối lượng tối thiểu bao nhiêu để được coi là chất ma túy?",
+    "agent_response": "Quả thuốc phiện tươi được coi là chất ma túy khi có khối lượng từ 01 kilôgam đến dưới 10 kilôgam, theo quy định tại [Document 1 | Source: bo-luat-hinh-su-2015.md].",
+    "latency": 7.815423334017396,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Có bao nhiêu kilôgam quả thuốc phiện khô được đề cập trong văn bản?",
+    "agent_response": "Trong các văn bản pháp lý được trích dẫn, có nhiều mức khối lượng quả thuốc phiện khô được đề cập:\n\n1. Quả thuốc phiện khô có khối lượng từ 600 kilôgam trở lên [Document 1].\n2. Quả thuốc phiện khô có khối lượng từ 200 kilôgam đến dưới 600 kilôgam [Document 3].\n3. Quả thuốc phiện khô có khối lượng từ 50 kilôgam đến dưới 200 kilôgam [Document 4].\n4. Quả thuốc phiện khô có khối lượng từ 5 kilôgam đến dưới 50 kilôgam [Document 5].\n\nTóm lại, có tổng cộng bốn mức khối lượng quả thuốc phiện khô được đề cập trong các văn bản này.",
+    "latency": 9.709163083927706,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 4.0/5, Llama: 5.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Người mẫu Andrea Aybar bị bắt với cáo buộc gì?",
+    "agent_response": "Người mẫu Andrea Aybar, 29 tuổi, tức Nguyễn Thị An, bị bắt với cáo buộc tàng trữ và tổ chức sử dụng ma túy. Cô bị Công an TP HCM bắt để điều tra về hai hành vi này vào ngày 14/11 [VnExpress, 2024].",
+    "latency": 7.895018582930788,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Chi Dân bị bắt với cáo buộc gì?",
+    "agent_response": "Chi Dân, tên thật là Nguyễn Trung Hiếu, bị bắt với cáo buộc tổ chức sử dụng trái phép chất ma túy. Cùng với anh, người mẫu Andrea Aybar cũng bị bắt với cáo buộc tàng trữ và tổ chức sử dụng ma túy [VnExpress, 2024].",
+    "latency": 8.726979000028223,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Andrea Aybar bao nhiêu tuổi tại thời điểm bị bắt?",
+    "agent_response": "Andrea Aybar, tên tiếng Việt là Nguyễn Thị An, bị bắt vào ngày 14/11 và tại thời điểm đó, cô 29 tuổi [Document 1 | Source: article_03.md].",
+    "latency": 6.118745957966894,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nguyễn Trung Hiếu (ca sĩ Chi Dân) đã làm gì khi đến nhà bạn?",
+    "agent_response": "Nguyễn Trung Hiếu, tức ca sĩ Chi Dân, cùng anh trai Nguyễn Trung Tín đã đến nhà bạn để nhậu. Sau đó, họ đã hai lần rủ nhóm bạn này cùng mua ma túy về sử dụng [VnExpress, 2024].",
+    "latency": 6.942604291951284,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 4.0/5, Llama: 5.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Có bao nhiêu lần Nguyễn Trung Hiếu rủ nhóm bạn cùng mua ma túy?",
+    "agent_response": "Nguyễn Trung Hiếu (ca sĩ Chi Dân) đã rủ nhóm bạn cùng mua ma túy hai lần [Document 1].",
+    "latency": 6.8318947500083596,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nguyễn Trung Hiếu đã rủ nhóm bạn sử dụng ma túy tại quán bar?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có. Các tài liệu chỉ đề cập đến việc Nguyễn Trung Hiếu (ca sĩ Chi Dân) cùng anh trai rủ nhóm bạn sử dụng ma túy tại nhà riêng, không có thông tin nào cho thấy việc này xảy ra tại quán bar.",
+    "latency": 7.3319915840402246,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 4.0/5, Llama: 5.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Đường dây tội phạm vận chuyển chất ma túy được phát hiện từ quốc gia nào?",
+    "agent_response": "Đường dây tội phạm vận chuyển chất ma túy được phát hiện là từ Pháp về Việt Nam [Document 3].",
+    "latency": 5.85239354101941,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Công an TP HCM đã triệt phá bao nhiêu đường dây và băng nhóm liên quan đến ma túy?",
+    "agent_response": "Công an TP HCM đã triệt phá tổng cộng gần 500 đường dây và băng nhóm tội phạm liên quan đến ma túy [Document 1]. Ngoài ra, trong một chiến dịch khác, họ đã triệt phá thêm 146 đường dây và băng nhóm mua bán, vận chuyển trái phép chất ma túy, nâng tổng số đường dây bị triệt phá lên 646 [Document 5].",
+    "latency": 7.718794582877308,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 2.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 2.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Công an TP HCM đã khởi tố thêm bao nhiêu bị can liên quan đến vụ án này?",
+    "agent_response": "Công an TP HCM đã khởi tố tổng cộng 2.005 bị can liên quan đến vụ án vận chuyển trái phép chất ma túy qua đường hàng không từ Pháp về Việt Nam [VnExpress, 2024].",
+    "latency": 6.683910915860906,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Ai là đơn vị duy nhất được phép nhập khẩu mẫu chất ma túy?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.151253916788846,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Các đơn vị nào được quản lý, sử dụng mẫu chất ma túy theo văn bản?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 6.200690207770094,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Có phải tất cả các cơ quan của nhà nước đều được phép nhập khẩu mẫu chất ma túy không?",
+    "agent_response": "Không, không phải tất cả các cơ quan của nhà nước đều được phép nhập khẩu mẫu chất ma túy. Theo quy định tại Điều 17 của Luật Phòng chống ma túy 2021, các hoạt động nhập khẩu chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, và các nguyên liệu liên quan phải được cơ quan có thẩm quyền cho phép [Luật Phòng chống ma túy 2021, Điều 17]. Điều này có nghĩa là chỉ những cơ quan được nhà nước cấp phép mới có quyền thực hiện các hoạt động nhập khẩu này.",
+    "latency": 7.375164292054251,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 4.0/5, Llama: 5.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Các bước nào cần thực hiện sau khi được cấp Giấy phép nhập khẩu?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 5.581617416115478,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Ai là đơn vị thực hiện thủ tục nhập khẩu?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 5.70745174982585,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Viện Khoa học hình sự sẽ gửi bao nhiêu bộ hồ sơ cho Bộ Tài chính?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 5.7129957501310855,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1.0,
+        "llama-3.3-70b": 1.0
+      },
+      "reasoning": "GPT: 1.0/5, Llama: 1.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Các hoạt động nào liên quan đến ma túy được quy định trong văn bản?",
+    "agent_response": "Các hoạt động hợp pháp liên quan đến ma túy được quy định trong Luật Phòng, chống ma túy bao gồm những hoạt động được cơ quan quản lý nhà nước có thẩm quyền cho phép. Cụ thể, các hoạt động này bao gồm:\n\n1. Nghiên cứu, giám định, kiểm nghiệm, kiểm định, sản xuất chất ma túy (không bao gồm trồng cây có chứa chất ma túy), tiền chất, thuốc gây nghiện, thuốc hướng thần [Luật Phòng chống ma túy 2021, Điều 12].\n\n2. Kiểm soát các hoạt động hợp pháp liên quan đến ma túy, bao gồm việc cho phép, theo dõi, kiểm tra, giám sát các hoạt động này và phòng ngừa, ngăn chặn việc lợi dụng các hoạt động đó vào mục đích khác [Luật Phòng chống ma túy 2021, Điều 9].\n\nNgoài ra, các cơ quan, tổ chức, cá nhân khi tiến hành các hoạt động này cũng phải lập hồ sơ theo quy định [Luật Phòng chống ma túy 2021, Điều 18].",
+    "latency": 11.702308625215665,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 3.0,
+        "llama-3.3-70b": 4.0
+      },
+      "reasoning": "GPT: 3.0/5, Llama: 4.0/5. Hai giám khảo có chút khác biệt nhỏ."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Văn bản có đề cập đến việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy không?",
+    "agent_response": "Có, văn bản đã đề cập đến việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy. Cụ thể, trách nhiệm của Bộ Công an bao gồm việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy, cho phép, theo dõi, kiểm tra, giám sát các hoạt động này và phòng ngừa, ngăn chặn việc lợi dụng các hoạt động đó vào mục đích khác [Luật Phòng chống ma túy 2021, Điều 3].",
+    "latency": 8.714477292029187,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Văn bản đề cập đến việc sản xuất thuốc ma túy mà không cần giấy phép không?",
+    "agent_response": "Văn bản không đề cập đến việc sản xuất thuốc ma túy mà không cần giấy phép. Theo Điều 12 của Luật Phòng chống ma túy, các hoạt động hợp pháp liên quan đến ma túy, bao gồm nghiên cứu, giám định, kiểm nghiệm, kiểm định và sản xuất chất ma túy, đều phải được cơ quan quản lý nhà nước có thẩm quyền cho phép [luat-phong-chong-ma-tuy-2021.md, Điều 12]. Điều này có nghĩa là việc sản xuất thuốc ma túy mà không có giấy phép là vi phạm pháp luật.",
+    "latency": 7.626691542100161,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Luật này có hiệu lực thi hành từ ngày nào?",
+    "agent_response": "Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2022 [Luật Phòng chống ma túy 2021, Điều 54].",
+    "latency": 6.490724459057674,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Luật Phòng, chống ma túy số 23/2000/QH10 còn hiệu lực cho đến khi nào?",
+    "agent_response": "Luật Phòng, chống ma túy số 23/2000/QH10 đã được sửa đổi, bổ sung một số điều theo Luật số 16/2008/QH12 và vẫn còn hiệu lực cho đến khi Luật mới được ban hành, cụ thể là Luật Phòng, chống ma túy được Quốc hội thông qua ngày 30 tháng 3 năm 2021. Tuy nhiên, các quy định chuyển tiếp của Luật mới cho phép những người đang thực hiện cai nghiện ma túy theo quy định của Luật cũ tiếp tục thực hiện đến hết thời hạn đã đăng ký. Do đó, Luật cũ vẫn có hiệu lực cho đến khi các quy định chuyển tiếp của Luật mới được thực hiện hoàn toàn [Luật Phòng chống ma túy 2021, Điều 55].",
+    "latency": 8.069705207832158,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 3.0/5, Llama: 5.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2023 không?",
+    "agent_response": "Luật Phòng, chống ma túy có hiệu lực thi hành từ ngày 01 tháng 01 năm 2022, không phải từ ngày 01 tháng 01 năm 2023 [Luật Phòng chống ma tuý 2021, Điều 54]. Do đó, thông tin bạn hỏi là không chính xác.",
+    "latency": 6.490737041924149,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Miu Lê quê ở đâu?",
+    "agent_response": "Ca sĩ Miu Lê, tên thật là Lê Ánh Nhật, trú tại TP HCM [Document 4].",
+    "latency": 6.161184499971569,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 2.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 2.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Miu Lê bắt đầu sự nghiệp diễn xuất vào năm nào?",
+    "agent_response": "Miu Lê bắt đầu sự nghiệp diễn xuất vào năm 2009 với phim _Những thiên thần áo trắng_ [article_01.md].",
+    "latency": 5.746389290783554,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Miu Lê nổi tiếng với vai diễn trong bộ phim nào về đề tài siêu anh hùng?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "latency": 4.887401333078742,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 5.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Ai là người phải nêu ý kiến về bảo vệ quyền trẻ em trong văn bản?",
+    "agent_response": "Người phải nêu ý kiến về bảo vệ quyền trẻ em trong văn bản là Trưởng phòng Phòng Lao động - Thương binh và Xã hội cấp huyện. Điều này được quy định trong nội dung văn bản đề nghị xem xét đưa vào cơ sở cai nghiện bắt buộc [Luật Phòng chống ma túy 2021, Điều 5].",
+    "latency": 6.647992750164121,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Hồ sơ đề nghị đưa vào cơ sở cai nghiện bắt buộc đối với người nghiện ma túy từ độ tuổi nào phải được đánh bút lục?",
+    "agent_response": "Hồ sơ đề nghị đưa vào cơ sở cai nghiện bắt buộc đối với người nghiện ma túy từ đủ 12 tuổi đến dưới 18 tuổi phải được đánh bút lục và được lưu trữ theo quy định của pháp luật về lưu trữ [Luật Phòng chống ma tuý 2021, Điều 34].",
+    "latency": 6.53206416615285,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 5.0/5, Llama: 5.0/5. Hai giám khảo hoàn toàn đồng thuận."
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Chính phủ có quy định về việc lập hồ sơ đề nghị đưa người nghiện ma túy từ 18 tuổi trở lên vào cơ sở cai nghiện không?",
+    "agent_response": "Tôi không thể xác minh thông tin này từ nguồn hiện có. Các tài liệu chỉ đề cập đến việc lập hồ sơ đề nghị đưa người nghiện ma túy từ đủ 12 tuổi đến dưới 18 tuổi vào cơ sở cai nghiện bắt buộc mà không đề cập đến quy định cho đối tượng từ 18 tuổi trở lên [Luật Phòng chống ma túy 2021, Điều 34].",
+    "latency": 6.719662207877263,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2.0,
+        "llama-3.3-70b": 5.0
+      },
+      "reasoning": "GPT: 2.0/5, Llama: 5.0/5. XUNG ĐỘT! Hai giám khảo không đồng ý với nhau."
+    },
+    "status": "pass"
+  }
+]
